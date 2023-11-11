@@ -1,0 +1,35 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+mbp:kadai_004 yumikotaito$ cd /Users/yumikotaito/Desktop/kadai_004
+mbp:kadai_004 yumikotaito$ mkdir git_challenge
+mbp:kadai_004 yumikotaito$ cd git_challenge
+mbp:git_challenge yumikotaito$ git init
+Initialized empty Git repository in /Users/yumikotaito/Desktop/kadai_004/git_challenge/.git/
+mbp:git_challenge yumikotaito$ cd /Users/yumikotaito/Desktop/kadai_004/git_challenge/
+mbp:git_challenge yumikotaito$ echo "Hello,worldI" >> hello_world.txt
+
+mbp:git_challenge yumikotaito$ git add hello_world.txt
+mbp:git_challenge yumikotaito$ git commit -m "hello_world.txt‚ğ’Ç‰Á"
+[master (root-commit) 9f00d4c] hello_world.txt‚ğ’Ç‰Á
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+mbp:git_challenge yumikotaito$ cd /Users/yumikotaito/Desktop/kadai_004/git_challenge/
+mbp:git_challenge yumikotaito$ echo "‚±‚ñ‚É‚¿‚ÍA¢ŠEI" >> hello_world.txt
+mbp:git_challenge yumikotaito$ git add hello_world.txt
+mbp:git_challenge yumikotaito$ git commit -m "hell_world.txt‚ğ’Ç‰Á"
+[master 038491a] hell_world.txt‚ğ’Ç‰Á
+ 1 file changed, 1 insertion(+)
+mbp:git_challenge yumikotaito$ git log
+commit 038491a9befcd7902859090da824b2d040565088 (HEAD -> master)
+Author: gyumikotaitoh <yumimts.aile.0407.0318@gmail.com>
+Date:   Sat Nov 11 23:44:30 2023 +0900
+
+    hell_world.txt‚ğ’Ç‰Á
+
+commit 9f00d4cbd5069db539abe31b13307a18e6b73463
+Author: gyumikotaitoh <yumimts.aile.0407.0318@gmail.com>
+Date:   Sat Nov 11 23:43:34 2023 +0900
+
+    hello_world.txt‚ğ’Ç‰Á
+mbp:git_challenge yumikotaito$ 
